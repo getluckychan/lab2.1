@@ -1,0 +1,17 @@
+    """
+        @property
+        def pointer(self):
+            return self.__pointer
+        @property
+        def rows(self):
+            return self.__rows
+        @property
+        def columns(self):
+            return self.__columns
+
+
+        @rows.setter
+        def rows(self, rows):
+            self.__rows = len(matrix_elements)
+    """
+    2 5 6; 9 8 7; 5 4 7
