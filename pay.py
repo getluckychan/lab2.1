@@ -18,10 +18,5 @@ def non_copy():
 
 class Copy(Pay):
 
-    def non_copy():
-        return 0
-
     def __copy__(self, summa):
         return summa()
-
-
